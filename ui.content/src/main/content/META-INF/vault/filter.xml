@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/conf/utjh" mode="merge"/>
+    <filter root="/content/utjh" mode="merge"/>
+    <filter root="/content/dam/utjh" mode="merge">
+        <exclude pattern="/content/dam/utjh(/.*)?"/>
+        <include pattern="/content/dam/utjh/jcr:content(/.*)?"/>
+    </filter>
+    <filter root="/content/dam/utjh/asset.jpg" mode="merge"/>
+    <filter root="/content/experience-fragments/utjh" mode="merge"/>
+    <filter root="/content/dam/formsanddocuments-themes/utjh" mode="merge"/>
+    <filter root="/content/dam/formsanddocuments-fdm/utjh" mode="merge"/>
+    <filter root="/content/dam/utjh/sample_logo.png" mode="merge"/>
+    <filter root="/content/dam/utjh/sample_terms.png" mode="merge"/>
+    <filter root="/content/dam/utjh/wknd_logo.png" mode="merge"/>
+</workspaceFilter>
